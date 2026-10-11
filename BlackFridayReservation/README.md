@@ -61,7 +61,8 @@ To manually verify the API functionality, inspect endpoints, and test multi-tena
 
 1. **Launch the Application**: Run the API project locally using:
 ```powershell
-dotnet run --project src/BlackFriday.Api
+docker compose build
+docker compose up
 
 ```
 
