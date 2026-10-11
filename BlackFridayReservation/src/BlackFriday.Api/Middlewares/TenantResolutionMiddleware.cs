@@ -1,7 +1,7 @@
 ﻿using BlackFridayReservation.src.BlackFriday.Api.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlackFridayReservation.src.Middleware
+namespace BlackFridayReservation.src.BlackFriday.Api.Middlewares
 {
     public class TenantResolutionMiddleware
     {

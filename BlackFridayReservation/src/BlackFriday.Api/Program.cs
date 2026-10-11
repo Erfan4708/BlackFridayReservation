@@ -1,10 +1,10 @@
 using BlackFridayReservation.src.BlackFriday.Api.Application.Reservations;
 using BlackFridayReservation.src.BlackFriday.Api.Application;
 using BlackFridayReservation.src.BlackFriday.Api.Infrastructure.Persistence;
-using BlackFridayReservation.src.Middleware;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
+using BlackFridayReservation.src.BlackFriday.Api.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
